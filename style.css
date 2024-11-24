@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: rgb(31,31,31);
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+#calculadora {
+    background-color: rgb(243, 243, 243);
+    border-radius: 10px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:10px;
+}
+
+input {
+    font-size: 18px;
+    width: 100%;
+    height: 60px;
+    border: none;
+    text-align: center;
+}
+.linha{
+    display: flex;
+    justify-content: space-between;
+}
+.celula:hover {
+    cursor: pointer;
+    background-color: rgb(245,245,245);
+}
+.celula{
+    background-color: rgb(249, 249, 249);
+    border-radius: 5px;
+    padding: 5px;
+    width: 58px;
+    height: 30px;
+    text-align: center;
+}
+
+
